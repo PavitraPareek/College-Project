@@ -11,11 +11,11 @@ $email_body = "User name: $name.\n".
                 "Subject: $subject.\n".
                 "User Message: $message.\n";
 
-$to = 'himanshuch8055@gmail.com';
+$to = 'aparnatiwari0907@gmail.com';
 $headers = "Form: $email_form \r\n";
 $headers .= "Reply-To: $visitor_email \r\n";
 
 mail($to,$email_subject,$email_body,$headers);
 
-header("Location: contact.html");
+header("Location: https://github.com/PavitraPareek/College-Project/blob/main/college_proj/HTML/contact.HTML");
 ?>
